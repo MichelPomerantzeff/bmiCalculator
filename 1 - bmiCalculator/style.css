@@ -1,0 +1,88 @@
+
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: rgb(0, 183, 255);
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 5px black;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font: bold 2.5rem serif;
+    border-bottom: solid 5px black;
+    margin-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.input input {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font: bold 1.5rem serif;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+    background: white;
+}
+
+.input label {
+    font: bold 1.5rem serif;
+}
+
+.content {
+    color: black;
+}
+
+button {
+    text-shadow: .2px .2px .5px black;
+    width: 300px;
+    height: 40px;
+    font: bold 1.2rem serif;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(192, 192, 192);
+}
+
+.result {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1.5rem black;
+    box-shadow: 0px 0px 10px black;
+    background: white;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
