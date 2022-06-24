@@ -9,9 +9,9 @@ function imc () {
         const BMIvalue = (weight / (height * height))
         let status = ''
         if (BMIvalue < 18.5) {
-            status = 'underwight.'
+            status = 'underweight.'
         } else if (BMIvalue < 25) {
-            status = 'ideal wight. Well done !!!'
+            status = 'ideal weight. Well done !!!'
         } else if(BMIvalue < 30) {
             status = 'slightly overweight.'
         } else if(BMIvalue < 35) {
